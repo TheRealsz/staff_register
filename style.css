@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+    color: #fff;
+}
+
+body {
+    overflow: hidden;
+    background-color: rgb(4, 16, 47);
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.titleDiv {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.formDiv {
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(7, minmax(0, 1fr));
+    gap: 8px;
+}
+
+input {
+    width: 100%;
+}
+
+.buttonDiv {
+    width: 80%;
+    display: flex;
+    justify-content: end;
+}
+
+button {
+    color: #000;
+    padding: 5px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
